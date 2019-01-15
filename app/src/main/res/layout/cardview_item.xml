@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_id"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_area"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="146dp"
+            android:layout_marginBottom="129dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView_servicetime"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="49dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="36dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
